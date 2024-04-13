@@ -1,0 +1,12 @@
+.nav-main{
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-btn{
+    background-color: 'pink';
+}
