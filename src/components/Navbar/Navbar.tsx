@@ -1,5 +1,6 @@
 import { Box, Image, Button } from "@chakra-ui/react";
 import NavIcon from '../../assets/Nexcent.png'
+import Logo from '../../assets/Logo.png'
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -19,7 +20,8 @@ const Navbar = () => {
           paddingLeft={5}
           alignItems={"center"}
         >
-          <Image src={NavIcon} alt="navbar" height={"25px"}/>
+          <Image src={Logo} alt="navbar" height={"20px"}/>
+          <Image src={NavIcon} alt="navbar" height={"25px"} marginLeft={"10px"}/>
         </Box>
         <Box
           flex={2}
@@ -95,7 +97,7 @@ const Navbar = () => {
             color={"white"}
             _hover={{backgroundColor:"#43A046"}}
           >
-            SignIn
+            Sign Up
           </Button>
         </Box>
       </Box>
