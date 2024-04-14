@@ -1,3 +1,4 @@
+import BottomSection from "./BottomSection";
 import MiddleSection from "./MiddleSection";
 import TopSection from "./TopSection";
 
@@ -6,6 +7,7 @@ const HomePage = () => {
     <div className="home-main">
       <TopSection/>
       <MiddleSection/>
+      <BottomSection/>
     </div>
   );
 };

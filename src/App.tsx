@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router";
 import "./App.css";
 import HomePage from "./components/HomePage/HomePage";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
         </Routes>
+
+        <Footer/>
       </main>
     </>
   );
