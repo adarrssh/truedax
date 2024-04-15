@@ -11,7 +11,7 @@ const Community = () => {
       alignItems={"center"}
       flexDirection={"column"}
       width={"100%"}
-      paddingTop={"80px"}
+      paddingTop={"50px"}
       backgroundColor={"white"}
     >
       <Box textAlign={"center"} width={"90%"}>
@@ -31,7 +31,7 @@ const Community = () => {
         width={"90%"}
         display={"flex"}
         flexDirection={"row"}
-        paddingTop={"40px"}
+        paddingTop={"50px"}
       >
         <Box
           flex={"1"}

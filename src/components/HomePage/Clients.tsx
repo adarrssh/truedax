@@ -15,7 +15,7 @@ const Clients = () => {
       alignItems={"center"}
       flexDirection={"column"}
       width={"100%"}
-      paddingTop={"40px"}
+      paddingTop={"50px"}
       backgroundColor={"white"}
     >
       <Box textAlign={"center"} width={"90%"}>
