@@ -9,7 +9,7 @@ const Experience = () => {
       alignItems={"center"}
       paddingTop={"50px"}
       width={"100%"}
-      paddingBottom={"10px"}
+      paddingBottom={"50px"}
       backgroundColor={"white"}
       
     >

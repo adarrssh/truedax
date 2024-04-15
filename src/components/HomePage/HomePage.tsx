@@ -1,3 +1,4 @@
+import ContactForm from "../ContactPage/ContactForm";
 import BottomSection from "./BottomSection";
 import MiddleSection from "./MiddleSection";
 import TopSection from "./TopSection";
@@ -8,6 +9,7 @@ const HomePage = () => {
       <TopSection/>
       <MiddleSection/>
       <BottomSection/>
+      <ContactForm/>
     </div>
   );
 };

@@ -7,7 +7,6 @@ const MiddleSection = () => {
     <>
     <Clients/>
     <Community/>
-    <Experience/>
     </>
   )
 }

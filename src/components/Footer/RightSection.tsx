@@ -37,10 +37,10 @@ const RightSection = () => {
             <Input
              placeholder='Your email Address'
              paddingRight={"10px"}
-             borderColor={"#263238"}
-             _hover={{borderColor:"#263238"}}
-             _focus={{borderColor:"#263238"}}
-             focusBorderColor='#263238'
+             borderColor={"transparent"}
+             _hover={{borderColor:"transparent"}}
+             _focus={{borderColor:"transparent"}}
+             focusBorderColor='transparent'
              height={"40px"}
              color={"white"}
             />
