@@ -2,8 +2,10 @@ import { Box, Image, Button } from "@chakra-ui/react";
 import NavIcon from '../../assets/Nexcent.png'
 import Logo from '../../assets/Logo.png'
 import "./Navbar.css";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate()
   return (
     <div className="nav-main">
       <Box
@@ -37,6 +39,7 @@ const Navbar = () => {
             
             fontSize={"17px"}
             color={"18191F"}
+            onClick={()=>navigate('/')}
           >
             Home
           </Button>
@@ -47,6 +50,8 @@ const Navbar = () => {
             
             fontSize={"17px"}
             color={"18191F"}
+            onClick={()=>navigate('/about')}
+
           >
             About
           </Button>
@@ -57,6 +62,8 @@ const Navbar = () => {
             
             fontSize={"17px"}
             color={"18191F"}
+            onClick={()=>navigate('/service')}
+
           >
             Services
           </Button>
@@ -67,6 +74,8 @@ const Navbar = () => {
             
             fontSize={"17px"}
             color={"18191F"}
+            onClick={()=>navigate('/contact')}
+
           >
             Contact
           </Button>
