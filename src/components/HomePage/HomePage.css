@@ -4,5 +4,6 @@
     justify-content: center;
     align-items: center;
     background-color: #F5F7FA;
-    width: 100vw;
+    width: 100%;
+    max-width: 1500px;
 }

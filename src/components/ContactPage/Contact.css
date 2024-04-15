@@ -1,4 +1,6 @@
 .contact-main{
     height: 60vh;
     background-color: #F5F7FA;
+    width: 100%;
+    max-width: 1500px;
 }

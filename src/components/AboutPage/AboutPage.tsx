@@ -1,9 +1,10 @@
 import { Box, Button, Image, Text } from "@chakra-ui/react";
 import Password from '../../assets/about/paasword.png'
+import './About.css'
 
 const AboutPage = () => {
   return (
-    <div>
+    <div className="about-main">
           <Box
       display={"flex"}
       justifyContent={"center"}
