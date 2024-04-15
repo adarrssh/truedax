@@ -2,6 +2,7 @@ import { Box } from "@chakra-ui/react";
 import "./Footer.css";
 import LeftSection from "./LeftSection";
 import MiddleSection from "./MiddleSection";
+import RightSection from "./RightSection";
 
 const Footer = () => {
   return (
@@ -9,9 +10,7 @@ const Footer = () => {
       <Box display={"flex"} width={"90%"} flexDirection={"row"}>
         <LeftSection />
         <MiddleSection/>
-        <Box flex={"1"}>
-            1
-        </Box>
+        <RightSection/>
       </Box>
     </div>
   );
