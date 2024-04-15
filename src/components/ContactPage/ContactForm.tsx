@@ -12,7 +12,7 @@ interface UserDetails {
   name: string;
   email: string;
   companyName: string;
-  query: string;
+  message: string;
 }
 
 
@@ -22,7 +22,7 @@ const ContactForm = () => {
     name:'',
     email:'',
     companyName : '',
-    query: ''
+    message: ''
   })
 
   const handleChange = (fieldName : string, value:string) => {
@@ -35,17 +35,25 @@ const ContactForm = () => {
 
   const onSubmit = async () => {
     try {
-      const response = await axios.post('http://localhost:8000/user',userDeatils)
-      console.log(response)
+
+      if(!userDeatils.email || !userDeatils.companyName || !userDeatils.message || !userDeatils.name ) { 
+        alert("All fields required")
+        return;
+      }
+
+      const response = await axios.post('https://truedax-api.onrender.com/user',userDeatils)
+
       alert(response.data)
+
       setUserDetails({
         name: '',
         email: '',
         companyName: '',
-        query: ''
+        message: ''
       });
+
     } catch (error) {
-      // alert(error.response.data)
+      alert("something bad happend")
       console.error(error)
     }
   }
@@ -150,6 +158,7 @@ const ContactForm = () => {
             height={"30px"}
             color={"black"}
             value={userDeatils.email}
+            type={"email"}
             onChange={(e)=>handleChange('email',e.target.value)}
 
           />
@@ -209,8 +218,8 @@ const ContactForm = () => {
             focusBorderColor="transparent"
             height={"30px"}
             color={"black"}
-            value={userDeatils.query}
-            onChange={(e)=>handleChange('query',e.target.value)}
+            value={userDeatils.message}
+            onChange={(e)=>handleChange('message',e.target.value)}
 
           />
         </Box>
