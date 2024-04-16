@@ -1,5 +1,14 @@
 # TrueDax
 
+
+## video reacording
+
+
+
+https://github.com/adarrssh/truedax/assets/85433137/a11e9f6a-ed6f-41e0-bf50-b2f1644ba6b0
+
+
+
 <img width="1425" alt="Screenshot 2024-04-16 at 3 11 45 PM" src="https://github.com/adarrssh/truedax/assets/85433137/f7586259-d94e-4a7e-a959-345b8c692c45">
 
 <img width="1368" alt="Screenshot 2024-04-16 at 3 12 22 PM" src="https://github.com/adarrssh/truedax/assets/85433137/44a0dcb0-651a-4c51-9927-7dccc978eb2a">
