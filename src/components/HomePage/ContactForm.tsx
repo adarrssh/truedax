@@ -1,12 +1,9 @@
 import {
-  Alert,
-  AlertIcon,
   Box,
   Button,
   Image,
   Input,
   Text,
-  Toast,
 } from "@chakra-ui/react";
 import User from "../../assets/Contact/User.png";
 import Mail from "../../assets/Contact/Mail.png";
