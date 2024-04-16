@@ -11,7 +11,7 @@ const LeftSection = () => {
   return (
       <>
 
-        <Box flex={"1"} display={"flex"} flexDirection={"column"} padding={8}>
+        <Box flex={"1"} display={{base:"none",md:"flex"} }flexDirection={"column"} padding={8}>
 
           <Box textAlign={"left"}>
             <Box display={"flex"} justifyContent={"flex-start"} alignItems={"center"}>

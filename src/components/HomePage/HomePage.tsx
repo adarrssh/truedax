@@ -1,4 +1,4 @@
-import ContactForm from "../ContactForm/ContactForm";
+import ContactForm from "../ContactPage/ContactForm";
 import MiddleSection from "./MiddleSection";
 import TopSection from "./TopSection";
 

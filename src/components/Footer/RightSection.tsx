@@ -5,7 +5,7 @@ const RightSection = () => {
   return (
     <Box 
     flex={"1"}
-    display={"flex"}
+    display={{base:"none",lg:"flex"}}
     flexDirection={"row"}
     padding={8}
     >
@@ -23,7 +23,7 @@ const RightSection = () => {
         alignItems={"center"}
         flexDirection={"row"}
         marginTop={"30px"}
-        width={"70%"}
+        width={"210px"}
         border={"1px"}
         borderColor={"white"}
         borderRadius={"8px"}

@@ -17,7 +17,7 @@ const Navbar = () => {
       >
         <Box
           flex={1}
-          display={"flex"}
+          display={{base:"none",md:"flex"}}
           justifyContent={"flex-start"}
           paddingLeft={5}
           alignItems={"center"}

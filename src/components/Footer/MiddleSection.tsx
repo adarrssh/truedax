@@ -6,7 +6,7 @@ const MiddleSection = () => {
     flex={"1"}
     display={"flex"}
     flexDirection={"row"}
-    padding={8}
+    padding={{base:4,md:8}}
     >
 
        <Box

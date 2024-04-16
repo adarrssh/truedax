@@ -1,5 +1,6 @@
 .service-main{
-    height: 60vh;
+    /* height: 60vh; */
     display: flex;
     flex-direction: column;
+    padding-bottom: 40px;
 }
