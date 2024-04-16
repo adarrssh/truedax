@@ -15,7 +15,7 @@ const TopSection = () => {
   >
     <Box
       display={"flex"}
-      flexDirection={"row"}
+      flexDirection={{base:"column",md:"row"}}
       width={"80%"}
 
     >

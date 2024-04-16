@@ -10,18 +10,21 @@ const BottomSection = () => {
       display={"flex"}
       justifyContent={"center"}
       alignItems={"center"}
-      // paddingTop={"50px"}
       width={"100%"}
       height={"250px"}
-      // paddingBottom={"100px"}
-      // backgroundColor={"yellow"}
+      marginBottom={{sm:"50px",md:"0px"}}
     >
-      <Box display={"flex"} flexDirection={"row"} width={"80%"}>
+      <Box 
+        display={"flex"} 
+        flexDirection= {{base:"column",md:"row"}} 
+        width={"80%"}
+        >
         <Box
           flex={"1"}
           display={"flex"}
           justifyContent={"center"}
           flexDirection={"column"}
+          paddingLeft={{sm:"100px",md:"0px"}}
         >
           <Text fontSize={"2rem"} fontWeight={"bold"} color={"#4D4D4D"}>
             Helping a local
@@ -39,6 +42,8 @@ const BottomSection = () => {
           display={"flex"}
           justifyContent={"center"}
           flexDirection={"column"}
+          paddingLeft={{sm:"70px",md:"0px"}}
+
         >
           <Box flex={"1"} display={"flex"} flexDir={"row"} padding={"8px"}>
             <Box flex={"1"} display={"flex"} flexDirection={"row"}>
