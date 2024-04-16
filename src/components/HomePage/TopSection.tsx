@@ -6,7 +6,7 @@ import illustration from "../../assets/illustration.png";
 const TopSection = () => {
   return (
     <Box
-    height={"90vh"}
+    height={"600px"}
     display={"flex"}
     flexDirection={"row"}
     justifyContent={"center"}
