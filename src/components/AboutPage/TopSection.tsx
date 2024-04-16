@@ -11,7 +11,6 @@ const TopSection = () => {
     paddingTop={"50px"}
     width={"100%"}
     paddingBottom={"50px"}
-    // height={"500px"}
     
   >
     <Box
@@ -40,20 +39,20 @@ const TopSection = () => {
         <Box
         width={"80%"}
         >
-          <Text color={"#4D4D4D"} fontWeight={"bold"} fontSize={"40px"}>
+          <Text color={"#4D4D4D"} fontWeight={"bold"} fontSize={"2.5rem"}>
             The Unseen of spending three{" "}
           </Text>
           <Text
             paddingTop={"-5px"}
             color={"#4D4D4D"}
             fontWeight={"bold"}
-            fontSize={"40px"}
-          >
+            fontSize={"2.5rem"}          >
             years at pixelgrade
           </Text>
           <Text 
           paddingTop={"20px"}
           fontWeight={"light"}
+          fontSize={"1rem"}
           >
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
             voluptate vero eum exercitationem ab officia qui illum sint
