@@ -1,6 +1,6 @@
 import { Box, Button, Image, Text } from "@chakra-ui/react";
 import "./HomePage.css";
-import illustration from "../../assets/illustration.png";
+import Illustration from "../../assets/Illustration.png";
 
 
 const TopSection = () => {
@@ -52,7 +52,7 @@ const TopSection = () => {
       alignItems={"center"}
       
     >
-      <Image src={illustration} alt="image" />
+      <Image src={Illustration} alt="image" />
     </Box>
   </Box>
   )
