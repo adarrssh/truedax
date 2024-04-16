@@ -67,18 +67,6 @@ const Navbar = () => {
           >
             Services
           </Button>
-          <Button
-            background={"none"}
-            border={"none"}
-            _hover={{ color: "#43A046", cursor: "pointer" }}
-            
-            fontSize={"17px"}
-            color={"18191F"}
-            onClick={()=>navigate('/contact')}
-
-          >
-            Contact
-          </Button>
         </Box>
         <Box
           flex={1}

@@ -70,7 +70,7 @@ const ContactForm = () => {
     <Box
       display={"flex"}
       justifyContent={"center"}
-      flexDirection={"row"}
+      flexDirection={{base:"column",md:"row"}}
       width={"80%"}
       height={"100%"}
     >
@@ -79,7 +79,7 @@ const ContactForm = () => {
         flex={1}
         flexDirection={"column"}
         paddingTop={"80px"}
-        paddingLeft={"80px"}
+        paddingLeft={{sm:"100px",md:"80px"}}
         color={"#4D4D4D"}
       >
         <Text fontSize={"13px"}>CONTACT US</Text>
@@ -99,9 +99,11 @@ const ContactForm = () => {
         display={"flex"}
         justifyContent={"left"}
         flexDirection={"column"}
-        paddingTop={"80px"}
+        paddingTop={{base:"30px",md:"80px"}}
         paddingRight={"80px"}
-        paddingLeft={"30px"}
+        // paddingLeft={"30px"}
+        paddingLeft={{sm:"100px",md:"30px"}}
+
       >
         <Box
           display={"flex"}
@@ -109,7 +111,7 @@ const ContactForm = () => {
           alignItems={"center"}
           flexDirection={"row"}
           marginTop={"30px"}
-          width={"70%"}
+          width={"90%"}
           height={"40px"}
           border={"1px"}
           borderColor={"#28CB8B"}
@@ -138,7 +140,7 @@ const ContactForm = () => {
           alignItems={"center"}
           flexDirection={"row"}
           marginTop={"15px"}
-          width={"70%"}
+          width={"90%"}
           height={"40px"}
           border={"1px"}
           borderColor={"#28CB8B"}
@@ -169,7 +171,7 @@ const ContactForm = () => {
           alignItems={"center"}
           flexDirection={"row"}
           marginTop={"15px"}
-          width={"70%"}
+          width={"90%"}
           height={"40px"}
           border={"1px"}
           borderColor={"#28CB8B"}
@@ -199,7 +201,7 @@ const ContactForm = () => {
           alignItems={"center"}
           flexDirection={"row"}
           marginTop={"15px"}
-          width={"70%"}
+          width={"90%"}
           height={"40px"}
           border={"1px"}
           borderColor={"#28CB8B"}

@@ -30,7 +30,7 @@ const Community = () => {
       <Box
         width={"90%"}
         display={"flex"}
-        flexDirection={"row"}
+        flexDirection={{base:"column",sm:"column",md:"column",lg:"row"}}
         paddingTop={"50px"}
       >
         <Box
@@ -40,12 +40,14 @@ const Community = () => {
           alignItems={"center"}
           flexDirection={"column"}
           textAlign={"center"}
+          padding={4}
+
         >
           <Image src={Members} alt="img" width={"60px"} height={"40px"} />
-          <Text fontSize={"40px"} fontWeight={"bold"} color={"#4D4D4D"}>
+          <Text fontSize={"2.5rem"} fontWeight={"bold"} color={"#4D4D4D"}>
             Membership
           </Text>
-          <Text fontWeight={"light"}>
+          <Text fontSize={"1rem"} fontWeight={"light"}>
             Our membership management <br /> software provides full automation
             of <br /> membership renewals and payments
           </Text>
@@ -57,12 +59,14 @@ const Community = () => {
           alignItems={"center"}
           flexDirection={"column"}
           textAlign={"center"}
+          padding={4}
+
         >
           <Image src={Associations} alt="img" width={"60px"} height={"40px"} />
-          <Text fontSize={"40px"} fontWeight={"bold"} color={"#4D4D4D"}>
+          <Text fontSize={"2.5rem"} fontWeight={"bold"} color={"#4D4D4D"}>
             Associations
           </Text>
-          <Text fontWeight={"light"}>
+          <Text fontSize={"1rem"} fontWeight={"light"}>
             Our membership management <br /> software provides full automation
             of <br /> membership renewals and payments
           </Text>
@@ -74,12 +78,13 @@ const Community = () => {
           alignItems={"center"}
           flexDirection={"column"}
           textAlign={"center"}
+          padding={4}
         >
           <Image src={Clubs} alt="img" width={"50px"} height={"50px"} />
-          <Text fontSize={"40px"} fontWeight={"bold"} color={"#4D4D4D"}>
+          <Text fontSize={"2.5rem"} fontWeight={"bold"} color={"#4D4D4D"}>
             Clubs
           </Text>
-          <Text fontWeight={"light"}>
+          <Text fontSize={"1rem"} fontWeight={"light"}>
             Our membership management <br /> software provides full automation
             of <br /> membership renewals and payments
           </Text>

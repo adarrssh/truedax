@@ -20,15 +20,15 @@ const TopSection = () => {
     >
       <Box width={"95%"} marginTop={"-50px"}>
 
-        <Text fontSize={"70px"} fontWeight={"bold"} color={"#4D4D4D"}>
+        <Text fontSize={"4rem"} fontWeight={"bold"} color={"#4D4D4D"}>
           Lesson From Insights
         </Text>
 
-        <Text fontSize={"70px"} fontWeight={"bold"} color={"#43A046"}>
+        <Text fontSize={"4rem"} fontWeight={"bold"} color={"#43A046"}>
           From 8 years
         </Text>
 
-        <Text fontWeight={"light"}>
+        <Text fontSize={"1rem"} fontWeight={"light"}>
           Where to grow you business a photgrapher: site or social media?
         </Text>
 
@@ -39,6 +39,7 @@ const TopSection = () => {
           color={"white"}
           marginTop={"20px"}        
           _hover={{ bgColor: "white", color: "#43A046" }}
+          fontSize={"1rem"}
         >
           Register
         </Button>
@@ -46,9 +47,10 @@ const TopSection = () => {
     </Box>
     <Box
       flex={"1"}
-      display={"flex"}
+      display={{base:"none",md:"flex"}}
       justifyContent={"center"}
       alignItems={"center"}
+      
     >
       <Image src={illustration} alt="image" />
     </Box>

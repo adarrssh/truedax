@@ -15,11 +15,15 @@ const Experience = () => {
     >
       <Box
         display={"flex"}
-        flexDirection={"row"}
+        flexDirection={{base:"column",sm:"column",md:"row"}}
         width={"80%"}
 
       >
         <Box flex={"1"}
+        display={"flex"}
+        justifyContent={"center"}
+        alignItems={"center"}
+        // backgroundColor={"pink"}
         >
 
           <Image src={Login}></Image>
@@ -32,19 +36,20 @@ const Experience = () => {
           flexDirection={"column"}
           justifyContent={"flex-start"}
           flex={"2"}
+          // backgroundColor={"yellow"}
         >
           <Box
           width={"80%"}
           >
-            <Text color={"#4D4D4D"} fontWeight={"bold"} fontSize={"40px"}>
+            <Text color={"#4D4D4D"} fontWeight={"bold"} fontSize={"2.3rem"}>
               The Unseen of spending three{" "}
             </Text>
             <Text
               paddingTop={"-5px"}
               color={"#4D4D4D"}
               fontWeight={"bold"}
-              fontSize={"40px"}
-            >
+              fontSize={"2.3rem"}
+              >
               years at pixelgrade
             </Text>
             <Text 
