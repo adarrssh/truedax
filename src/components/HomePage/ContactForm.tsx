@@ -58,7 +58,7 @@ const ContactForm = () => {
       toast({
         title: "Please wait...",
         status: "info",
-        duration: 1000,
+        duration: 3000,
         isClosable: true,
       });
       const response = await axios.post(
